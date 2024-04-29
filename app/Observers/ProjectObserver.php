@@ -4,6 +4,7 @@ namespace App\Observers;
 
 use App\Models\Stat;
 use App\Models\Project;
+use Illuminate\Contracts\Events\ShouldHandleEventsAfterCommit;
 
 class ProjectObserver implements ShouldHandleEventsAfterCommit
 {
