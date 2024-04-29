@@ -16,7 +16,7 @@ class ProjectController extends Controller
         ]);
 
         Project::create([
-            'name' => $reqvalidate-['name']
+            'name' => $reqvalidate['name']
         ]);
 
         return redirect('/')->with('success', 'Project created');
